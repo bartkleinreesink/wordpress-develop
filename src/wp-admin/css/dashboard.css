@@ -710,13 +710,30 @@ body #dashboard-widgets .postbox form .submit {
 
 /* Dashboard mobile apps */
 
+#dashboard-widgets p:last-child {
+    margin-bottom: 1px !important;
+}
+
 #dashboard-widgets .wordpress-mobile-apps img {
 	width: 100px;
 }
 
-#dashboard-widgets .wordpress-mobile-apps img:first-child {
-	margin-right: 10px;
+#dashboard-widgets .wordpress-mobile-apps .apps {
+	line-height: 1;
 }
+
+#dashboard-widgets .wordpress-mobile-apps .apps-icon {
+	display: inline-block;
+}
+
+#dashboard-widgets .wordpress-mobile-apps .apps-icon:focus {
+	outline: 0;
+	box-shadow: none;
+}
+
+#dashboard-widgets .wordpress-mobile-apps .apps-icon:first-child {
+	margin-right: 10px;
+} 
 
 /* Dashboard right now - Colors */
 
