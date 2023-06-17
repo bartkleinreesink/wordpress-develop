@@ -1349,10 +1349,10 @@ function wp_dashboard_mobile_apps() {
 		<p>
 			<?php _e( 'The power of publishing in your hands any time, anywhere.' ); ?>
 		</p>
-		<p>
+		<p class="apps">
 			<?php
 			printf(
-				'<a href="%1$s" target="_blank"><img src="%2$s" alt="%3$s"></a>',
+				'<a href="%1$s" class="apps-icon" target="_blank"><img src="%2$s" alt="%3$s"></a>',
 				'https://apps.apple.com/app/apple-store/id335703880',
 				esc_url( admin_url( '/images/badge-apple.png' ) ),
 				__( 'Download on the Apple App Store' )
@@ -1360,7 +1360,7 @@ function wp_dashboard_mobile_apps() {
 			?>
 			<?php
 			printf(
-				'<a href="%1$s" target="_blank"><img src="%2$s" alt="%3$s"></a>',
+				'<a href="%1$s" class="apps-icon" target="_blank"><img src="%2$s" alt="%3$s"></a>',
 				'https://play.google.com/store/apps/details?id=org.wordpress.android',
 				esc_url( admin_url( '/images/badge-google-play.png' ) ),
 				__( 'Get it on Google Play' )
